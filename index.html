@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head><title>PFO1 - Pablo Bari</title></head>
+
+<head>
+    <title>PFO1 - Pablo Bari</title>
+</head>
+
 <body>
     <h1>Hola, simulo la entrada a una app</h1>
     <form id="perfil-form">
@@ -9,13 +13,14 @@
         <button type="submit">Enviar</button>
     </form>
     <script>
-        
-    // Simulación de llamada AJAX
-    document.getElementById('perfil-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert("Datos enviados al servidor");
-    });
+
+        // Simulación de llamada AJAX
+        document.getElementById('perfil-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert("Datos enviados al servidor");
+        });
     </script>
 
 </body>
+
 </html>
